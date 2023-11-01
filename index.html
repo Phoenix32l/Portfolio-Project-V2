@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Abdullah's Website</title>
+</head>
+<body>
+    <header>
+        <nav id = "home">
+            <ul>
+                <li><a class = "nav-btn" href="#home">Home </a></li>
+                <li><a class = "nav-btn" href="#projects">Projects</a></li>
+                <li><a class = "nav-btn" href="#about">About Me</a></li> 
+                <li><a class = "nav-btn" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class = "section-home">
+        <div class = "container-1">
+            <div class="picture-box"><img src="Abdullah_Image.jpg" alt="Abdullah.jpg"></div>
+            <div class = "text-box">
+                <p id ="about">
+                    Welcome to my Portfolio Project v2. My name is Abdullah Umair and I am a second year student at Ontario Tech 
+                    doing my Bachelor's in IT with a major in Networking & Cybersecurity. I have a lot of interest in the world of coding, cloud and cybersecurity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id = "projects" class = "section-project">
+        <div class="container-2">
+            <div id="project-header"><h2>Projects</h2></div>
+            <div class="Python-Project">
+                <div class="image-project"><img src="Python-Project.png" alt="Python.png"></div>
+                <div class="text-project">
+                    <h2><a class = "project-btn" href="">Python Project</a></h2>
+                    <p>I made this Python Game Project with a couple of classmates of mine
+                        in our Introduction to Python course. The game consists of two people 
+                        guessing a word. You get points based on how many words you get correct.  
+                        The game is fully interactive in the CLI.</p>
+                </div> 
+            </div>
+            <div class="Portfolio-Project">
+                <div class="image-project"><img src="Abdullah-Portfolio.png" alt="Portfolio1.png"></div>
+                <div class="text-project">
+                    <h2><a class = "project-btn" href="">Portfolio Project</a></h2>    
+                    <p>My personal portfolio website is a project that I developed using HTML and CSS. The portfolio features a responsive design for optimal viewing on different devices. The About Me section introduces me. 
+                        The Projects section shows the projects I've done with descriptions of it and a GitHub link to the Source Code. 
+                        There is also a contact page where you can contact me.</p>
+                </div>
+            </div>
+            <div class="Portfolio-Project2">
+                <div class="image-project"><img src="Abdullah-Portfolio.png" alt="Portfolio2.png"></div>
+                <div class="text-project">
+                    <h2><a class = "project-btn" href="">Portfolio Project v2</a></h2>
+                    <p>This is my second Portfolio Project but this time around I'm going to be adding some Javascript elements to it on the server-side and client-side. The languages 
+                        I'll be using is HTML, CSS and Javascript. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "contact"class = "section-contact">
+        <div class="container-3">
+            <h2>Contact Me!</h2>
+            <form action= "https://formsubmit.co/tempzohaib.u123@gmail.com" method="POST">
+                <input type="text" name ="name" class ="text_input" placeholder="Your Name" required>
+                <input type="email" name ="email" class ="text_input" placeholder="Your Email" required>
+                <input type="text" name ="subject" class ="text_input" placeholder="Subject">
+                <textarea type = "text" name ="message" class = "text_area" placeholder = "Your message"></textarea>
+                <button type="submit">Send</button>
+            </form>        
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-4">
+            <ul>                
+                <li><p class = "footer-btn">© 2023 by Abdullah Umair</p></li>
+                <li><p class = "footer-btn">Email: abdullah.umair@ontariotechu.net</p></li>
+                <li><a class = "footer-btn" href="https://ca.linkedin.com/in/abdullah-umair786"><i class="fa-brands fa-linkedin icon"></i></a></li>
+                <li><a class = "footer-btn" href="https://github.com/Phoenix32l"><i class="fa-brands fa-github icon"></i></a></li>   
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
